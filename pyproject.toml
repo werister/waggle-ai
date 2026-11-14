@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "waggle-ai"
+version = "0.0.1"
+description = "Waggle: a cross-family model panel for coding agents (pre-release placeholder)."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "werister" }]
+
+[project.urls]
+Homepage = "https://github.com/werister/waggle-ai"
+
+[project.scripts]
+waggle = "waggle_ai:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/waggle_ai"]

@@ -1,0 +1,11 @@
+{
+  "name": "waggle-ai",
+  "version": "0.0.1",
+  "description": "Waggle: a cross-family model panel for coding agents (pre-release placeholder).",
+  "license": "MIT",
+  "author": "werister",
+  "homepage": "https://github.com/werister/waggle-ai",
+  "repository": { "type": "git", "url": "git+https://github.com/werister/waggle-ai.git" },
+  "bin": { "waggle": "bin/waggle.js" },
+  "files": ["bin/", "README.md", "LICENSE"]
+}
